@@ -1,7 +1,8 @@
 const navItems = [
+  { label: "3D Тойм", href: "#showcase" },
   { label: "Үйлчилгээ", href: "#services" },
-  { label: "Давуу тал", href: "#about" },
-  { label: "Эмчилгээний явц", href: "#journey" },
+  { label: "Орчин", href: "#about" },
+  { label: "Нэг Харцаар", href: "#overview" },
   { label: "Холбоо барих", href: "#contact" },
 ];
 
@@ -33,25 +34,25 @@ function LogoMark() {
 
 export default function Header() {
   return (
-    <header className="relative z-30 mx-auto mb-8 w-full max-w-7xl animate-rise-in lg:mb-10">
-      <div className="rounded-[1.85rem] border border-cyan-950/10 bg-white/78 px-4 py-4 shadow-[0_24px_80px_-42px_rgba(8,47,73,0.28)] backdrop-blur md:px-5">
-        <div className="flex items-center gap-4">
+    <header className="relative z-30 mx-auto mb-6 w-full max-w-7xl animate-rise-in sm:mb-8 lg:mb-10">
+      <div className="rounded-[1.85rem] border border-cyan-950/10 bg-white/78 px-3.5 py-3.5 shadow-[0_24px_80px_-42px_rgba(8,47,73,0.28)] backdrop-blur sm:px-4 sm:py-4 md:px-5">
+        <div className="flex flex-wrap items-center gap-3 sm:gap-4">
           <a href="#top" className="group flex min-w-0 items-center gap-3">
-            <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-[1.35rem] bg-[linear-gradient(135deg,rgba(236,254,255,1),rgba(165,243,252,0.85),rgba(209,250,229,0.9))] shadow-[inset_0_1px_0_rgba(255,255,255,0.8),0_18px_40px_-24px_rgba(8,47,73,0.55)] ring-1 ring-cyan-950/10 transition-transform duration-300 group-hover:-translate-y-0.5">
+            <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-[1.2rem] bg-[linear-gradient(135deg,rgba(236,254,255,1),rgba(165,243,252,0.85),rgba(209,250,229,0.9))] shadow-[inset_0_1px_0_rgba(255,255,255,0.8),0_18px_40px_-24px_rgba(8,47,73,0.55)] ring-1 ring-cyan-950/10 transition-transform duration-300 group-hover:-translate-y-0.5 sm:h-14 sm:w-14 sm:rounded-[1.35rem]">
               <LogoMark />
             </span>
 
             <span className="min-w-0">
               <span className="block text-[0.65rem] font-semibold uppercase tracking-[0.32em] text-cyan-900/60">
-                Smile Care
+                3D Smile Care
               </span>
-              <span className="font-display block truncate text-2xl font-semibold tracking-[-0.04em] text-slate-900">
+              <span className="font-display block truncate text-xl font-semibold tracking-[-0.04em] text-slate-900 sm:text-2xl">
                 Dentiq Dental Clinic
               </span>
             </span>
           </a>
 
-          <nav className="hidden flex-1 items-center justify-center gap-2 lg:flex">
+          <nav className="hidden flex-1 items-center justify-center gap-2 xl:flex">
             {navItems.map((item) => (
               <a
                 key={item.href}
@@ -63,34 +64,34 @@ export default function Header() {
             ))}
           </nav>
 
-          <div className="ml-auto flex items-center gap-3">
+          <div className="ml-auto flex items-center gap-2 sm:gap-3">
             <a
               href="tel:77002020"
-              className="hidden rounded-full border border-cyan-950/10 bg-white/85 px-4 py-2 text-right text-sm text-slate-600 shadow-[0_12px_32px_-24px_rgba(8,47,73,0.35)] md:flex md:flex-col"
+              className="hidden rounded-full border border-cyan-950/10 bg-white/85 px-4 py-2 text-right text-sm text-slate-600 shadow-[0_12px_32px_-24px_rgba(8,47,73,0.35)] lg:flex lg:flex-col"
             >
               <span className="text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-slate-400">
-                Call
+                Утас
               </span>
               <span className="text-base font-semibold text-slate-900">
-                99145395
+                7700 2020
               </span>
             </a>
 
-            <div className="hidden rounded-full border border-emerald-300/30 bg-emerald-50/80 px-4 py-2 text-sm font-medium text-emerald-900 xl:flex xl:items-center xl:gap-2">
+            <div className="hidden rounded-full border border-emerald-300/30 bg-emerald-50/80 px-4 py-2 text-sm font-medium text-emerald-900 2xl:flex 2xl:items-center 2xl:gap-2">
               <span className="h-2 w-2 rounded-full bg-emerald-400" />
-              Open 09:00 - 20:00
+              Нээлттэй 09:00 - 20:00
             </div>
 
             <a
-              href="#appointment"
-              className="rounded-full bg-cyan-950 px-5 py-3 text-sm font-medium text-white transition-transform duration-300 hover:-translate-y-0.5"
+              href="#services"
+              className="rounded-full bg-cyan-950 px-4 py-2.5 text-sm font-medium text-white transition-transform duration-300 hover:-translate-y-0.5 sm:px-5 sm:py-3"
             >
-              Цаг авах
+              Үйлчилгээ
             </a>
           </div>
         </div>
 
-        <nav className="mt-4 flex gap-2 overflow-x-auto pb-1 lg:hidden">
+        <nav className="mt-4 flex gap-2 overflow-x-auto pb-1 xl:hidden">
           {navItems.map((item) => (
             <a
               key={item.href}

@@ -1,0 +1,77 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="220" y1="80" x2="1370" y2="1100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6FDFF"/>
+      <stop offset="0.55" stop-color="#E5F7FB"/>
+      <stop offset="1" stop-color="#D6F1EF"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="800" y1="80" x2="800" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#ECF7FA"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="300" y1="700" x2="1380" y2="1100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8EEF2"/>
+      <stop offset="1" stop-color="#B8DDE4"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="1010" y1="410" x2="1240" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#19A6AE"/>
+      <stop offset="1" stop-color="#0B7285"/>
+    </linearGradient>
+    <linearGradient id="sofa" x1="380" y1="650" x2="700" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DDEDF2"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1600" height="1200" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#2A6074" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1200" rx="56" fill="url(#bg)"/>
+  <rect x="96" y="92" width="1408" height="1016" rx="42" fill="#F8FDFF"/>
+  <path d="M140 248C140 196.072 182.072 154 234 154H1366C1417.93 154 1460 196.072 1460 248V690H140V248Z" fill="url(#wall)"/>
+  <path d="M140 690H1460V914C1460 965.928 1417.93 1008 1366 1008H234C182.072 1008 140 965.928 140 914V690Z" fill="url(#floor)"/>
+
+  <rect x="228" y="210" width="330" height="224" rx="28" fill="#DFF5F9"/>
+  <rect x="250" y="232" width="286" height="180" rx="20" fill="#F8FEFF"/>
+  <rect x="292" y="254" width="82" height="136" rx="16" fill="#E4F8FB"/>
+  <rect x="392" y="254" width="122" height="136" rx="16" fill="#D5F0F4"/>
+  <rect x="274" y="428" width="238" height="14" rx="7" fill="#C5E2E8"/>
+
+  <rect x="1050" y="212" width="254" height="154" rx="22" fill="#E8F7FA"/>
+  <rect x="1072" y="234" width="210" height="110" rx="16" fill="#F9FEFF"/>
+  <rect x="1110" y="262" width="136" height="12" rx="6" fill="#7FD9E2"/>
+  <rect x="1110" y="290" width="102" height="12" rx="6" fill="#D0EEF3"/>
+  <rect x="1110" y="318" width="150" height="12" rx="6" fill="#D0EEF3"/>
+
+  <g filter="url(#shadow)">
+    <path d="M1028 444C1028 414.177 1052.18 390 1082 390H1278C1307.82 390 1332 414.177 1332 444V690H1028V444Z" fill="url(#desk)"/>
+    <path d="M1060 418H1300V482H1060V418Z" fill="#B7F1F0" fill-opacity="0.2"/>
+  </g>
+  <rect x="1074" y="514" width="116" height="18" rx="9" fill="#E9FFFF" fill-opacity="0.85"/>
+  <rect x="1208" y="514" width="68" height="18" rx="9" fill="#C5F4F0" fill-opacity="0.85"/>
+
+  <g filter="url(#shadow)">
+    <rect x="316" y="624" width="432" height="192" rx="48" fill="url(#sofa)"/>
+    <rect x="346" y="590" width="164" height="106" rx="34" fill="#F8FDFF"/>
+    <rect x="520" y="590" width="198" height="106" rx="34" fill="#ECF7FA"/>
+    <rect x="352" y="708" width="162" height="74" rx="26" fill="#DDEEF2"/>
+    <rect x="530" y="708" width="180" height="74" rx="26" fill="#D5E8EE"/>
+  </g>
+
+  <ellipse cx="562" cy="934" rx="320" ry="42" fill="#7CB7C3" fill-opacity="0.18"/>
+  <ellipse cx="1178" cy="734" rx="178" ry="28" fill="#2A6074" fill-opacity="0.18"/>
+
+  <g filter="url(#shadow)">
+    <rect x="722" y="728" width="132" height="132" rx="32" fill="#FFFFFF"/>
+    <rect x="746" y="752" width="84" height="84" rx="24" fill="#D7F1F4"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="882" y="676" width="96" height="204" rx="28" fill="#F1FBFC"/>
+    <rect x="910" y="630" width="40" height="74" rx="20" fill="#7DD3C4"/>
+    <path d="M866 796C896 730 996 730 1026 796V868H866V796Z" fill="#C8EBE1"/>
+    <rect x="916" y="546" width="28" height="94" rx="14" fill="#1A8A89"/>
+  </g>
+
+  <path d="M120 850C364 768 653 790 818 850C996 916 1244 924 1480 838V1088H120V850Z" fill="#C6E3E8" fill-opacity="0.45"/>
+</svg>
