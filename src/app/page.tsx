@@ -1,27 +1,27 @@
 import Header from "./_components/Header";
 
 const navLinks = [
-  { label: "WHAT WE DO", href: "#experience" },
-  { label: "WHO WE ARE", href: "#statement" },
-  { label: "OUR WORK", href: "#gallery" },
+  { label: "ҮЙЛЧИЛГЭЭ", href: "#experience" },
+  { label: "БИДНИЙ ТУХАЙ", href: "#statement" },
+  { label: "ҮР ДҮН", href: "#gallery" },
 ];
 
 const experienceCards = [
   {
-    title: "Dentistry As Artistry",
-    text: "With a custom approach to smile design that seamlessly marries digital and analog techniques, the result is more than a makeover; it is a transformation.",
+    title: "Урлаг мэт шүдний гоо зүй",
+    text: "Инээмсэглэлийн дизайнд дижитал болон уламжлалт аргачлалыг уялдуулснаар зөвхөн өөрчлөлт бус, өөртөө итгэх шинэ мэдрэмжийг бүтээнэ.",
     image:
       "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=1600",
   },
   {
-    title: "Unmatched In Quality",
-    text: "Each smile is brought to life with precision craftsmanship, world-class ceramists, and advanced digital technology.",
+    title: "Чанарын өндөр стандарт",
+    text: "Инээмсэглэл бүрийг нарийн ур чадвар, шилдэг лабораторийн ажил, дэвшилтэт дижитал технологиор амилуулдаг.",
     image:
       "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=1600",
   },
   {
-    title: "Impossible To Replicate",
-    text: "Creating natural, elegant, and highly personalized cosmetic dentistry results that feel uniquely your own.",
+    title: "Танд л зориулсан үр дүн",
+    text: "Төрөлхийн мэт байгалийн, тэнцвэртэй, дэгжин харагдах гоо сайхны шүдний эмчилгээний үр дүнг хувь хүн бүрт тохируулан бүтээнэ.",
     image:
       "https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1600",
   },
@@ -29,20 +29,20 @@ const experienceCards = [
 
 const steps = [
   {
-    title: "1. Schedule A Consultation",
-    text: "Start your smile journey with a personalized consultation tailored to your goals.",
+    title: "1. Зөвлөгөөний цаг аваарай",
+    text: "Таны зорилго, хэрэгцээнд нийцсэн хувийн зөвлөгөөнөөс инээмсэглэлийн аялал эхэлнэ.",
     image:
       "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=1600",
   },
   {
-    title: "2. Transform Your Smile",
-    text: "Restored teeth should look natural, elegant, balanced, and beautifully integrated.",
+    title: "2. Инээмсэглэлээ шинэчил",
+    text: "Сэргээгдсэн шүд байгалийн, дэгжин, тэнцвэртэй бөгөөд нүүрний төрхтэй ууссан байх ёстой.",
     image:
       "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=1600",
   },
   {
-    title: "3. Experience The Difference",
-    text: "A refined dental experience designed around comfort, clarity, and long-term confidence.",
+    title: "3. Ялгааг мэдрээрэй",
+    text: "Тав тух, ойлгомжтой зөвлөгөө, урт хугацааны итгэлд төвлөрсөн илүү боловсронгуй эмчилгээний туршлага.",
     image:
       "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=1600",
   },
@@ -58,37 +58,17 @@ const photos = [
 ];
 
 const locations = [
+
   {
-    city: "New York",
-    address: ["30 E 76th St.", "Floor 5", "New York, NY 10021", "212-794-9600"],
-  },
-  {
-    city: "Los Angeles",
+    city: "Ulaanbaatar, Mongolia",
     address: [
-      "9400 Brighton Way",
+      
       "Suite 301",
       "Beverly Hills, CA 90210",
-      "310-601-4288",
+      "95598339",
     ],
   },
-  {
-    city: "Miami",
-    address: [
-      "300 S Biscayne Boulevard",
-      "Suite C-202A",
-      "Miami, FL 33131",
-      "786-245-7968",
-    ],
-  },
-  {
-    city: "Dubai",
-    address: [
-      "63 Al Thanya St, Villa B",
-      "Umm Suqeim 2, Jumeirah",
-      "Dubai, UAE",
-      "+971 47091000",
-    ],
-  },
+ 
 ];
 
 function BackgroundImage({
@@ -113,7 +93,7 @@ export default function Home() {
       <Header
         links={navLinks}
         ctaHref="#contact"
-        ctaLabel="SCHEDULE A CONSULTATION"
+        ctaLabel="ЗӨВЛӨГӨӨНИЙ ЦАГ АВАХ"
       />
 
       <section className="relative min-h-[38rem] pt-20 sm:min-h-[44rem] sm:pt-24 lg:min-h-[54rem]">
@@ -126,19 +106,19 @@ export default function Home() {
         <div className="relative mx-auto flex min-h-[calc(100svh-5rem)] w-full max-w-[1800px] items-end px-5 pb-10 sm:min-h-[calc(100svh-6rem)] sm:px-7 sm:pb-14 lg:px-10 lg:pb-20">
           <div className="max-w-4xl text-white">
             <h1 className="text-[2rem] font-black uppercase leading-[0.93] tracking-[0.08em] sm:text-4xl md:text-5xl xl:text-6xl">
-              A New Standard In Dentistry
+              Шүдний эмчилгээний шинэ стандарт
             </h1>
 
             <p className="mt-4 max-w-3xl text-base leading-7 sm:text-xl sm:leading-9 md:mt-6 md:text-2xl">
-              It&apos;s not about the teeth; it&apos;s about the life the teeth
-              inspire you to live.
+              Энэ нь зөвхөн шүдний тухай биш. Энэ нь таны инээмсэглэлээр
+              эхлэх илүү итгэлтэй амьдралын тухай.
             </p>
 
             <a
               href="#contact"
               className="mt-7 inline-flex border-b-2 border-white pb-1 text-sm font-black uppercase tracking-[0.2em] sm:mt-9"
             >
-              Schedule A Consultation
+              Зөвлөгөөний цаг авах
             </a>
           </div>
         </div>
@@ -148,12 +128,13 @@ export default function Home() {
         <div className="mx-auto max-w-[1800px] px-5 sm:px-7 lg:px-10">
           <div className="text-center">
             <h2 className="text-2xl font-black uppercase tracking-[0.12em] sm:text-3xl lg:text-4xl">
-              Experience A New Kind Of Smile
+              Инээмсэглэлийн шинэ мэдрэмж
             </h2>
 
             <p className="mx-auto mt-4 max-w-5xl text-base leading-7 sm:mt-5 sm:text-lg md:text-xl">
-              Traditional craftsmanship meets cutting-edge technology to deliver
-              restorative dentistry with natural results and enduring benefits.
+              Уламжлалт ур чадвар, орчин үеийн технологи нэгдэж, байгалийн
+              харагдах, урт хугацаанд үнэ цэнээ хадгалах сэргээн засах
+              эмчилгээг хүргэнэ.
             </p>
           </div>
 
@@ -190,20 +171,20 @@ export default function Home() {
         <div className="relative mx-auto flex min-h-[34rem] w-full max-w-[1800px] items-end px-5 py-10 sm:min-h-[42rem] sm:px-7 sm:py-14 lg:min-h-[52rem] lg:px-10 lg:py-20">
           <div className="max-w-[38rem] text-white">
             <h2 className="text-2xl font-black uppercase tracking-[0.1em] sm:text-3xl lg:text-4xl">
-              Revolutionizing Modern Dentistry
+              Орчин үеийн шүдний эмчилгээг шинэ түвшинд
             </h2>
 
             <p className="mt-4 text-base leading-7 text-white/92 sm:text-lg sm:leading-8">
-              No ordinary office would do because there is nothing ordinary
-              about a world-class smile practice. Every detail is designed to
-              elevate the experience from functional to unforgettable.
+              Дэлхийн түвшний инээмсэглэл бүтээх газар энгийн байж болохгүй.
+              Тиймээс орчин, үйл явц, жижиг деталь бүрийг таны тав тух,
+              итгэл, мартагдашгүй мэдрэмжийн төлөө төлөвлөсөн.
             </p>
 
             <a
               href="#statement"
               className="mt-8 inline-flex border-b-2 border-white pb-1 text-sm font-black uppercase tracking-[0.2em]"
             >
-              About Apa Aesthetic
+              Бидний тухай
             </a>
           </div>
         </div>
@@ -215,21 +196,21 @@ export default function Home() {
       >
         <div className="mx-auto max-w-[1800px]">
           <h2 className="text-2xl font-black uppercase tracking-[0.12em] sm:text-3xl lg:text-4xl">
-            Dentistry Reimagined
+            Шүдний эмчилгээг шинээр төсөөлөхүй
           </h2>
 
           <p className="mx-auto mt-5 max-w-5xl text-base leading-7 text-white/88 sm:mt-6 sm:text-lg sm:leading-8">
-            Apa Aesthetic represents the highest echelon of talent from across
-            the globe and stands unrivaled in innovation, creativity, and skill.
-            Prioritizing both the clinical results and the patient experience,
-            the practice offers cosmetic dentistry, reimagined.
+            Apa Aesthetic нь дэлхийн түвшний ур чадвар, шинэлэг сэтгэлгээ,
+            гоо зүйн мэдрэмжийг нэг дор төвлөрүүлдэг. Эмнэлзүйн үр дүн болон
+            үйлчлүүлэгчийн туршлагыг зэрэг эрхэмлэж, гоо сайхны шүдний
+            эмчилгээг илүү өндөр стандартаар санал болгодог.
           </p>
 
           <a
             href="#contact"
             className="mt-9 inline-flex border-b-2 border-white pb-2 text-sm font-black uppercase tracking-[0.22em]"
           >
-            Schedule A Consultation
+            Зөвлөгөөний цаг авах
           </a>
         </div>
       </section>
@@ -266,12 +247,13 @@ export default function Home() {
         <div className="mx-auto max-w-[1800px]">
           <div className="text-center">
             <h2 className="text-2xl font-black uppercase tracking-[0.12em] sm:text-3xl lg:text-4xl">
-              Before And After Photos
+              Өмнө ба дараах үр дүн
             </h2>
 
             <p className="mx-auto mt-4 max-w-5xl text-base leading-7 sm:mt-5 sm:text-lg">
-              Smile makeovers favor careful, nuanced improvements for natural
-              results that ensure overall balance and facial harmony.
+              Инээмсэглэлийн өөрчлөлт нь нүүрний ерөнхий зохицол, байгалийн
+              харагдах байдлыг хадгалсан нарийн, мэдрэмжтэй сайжруулалтад
+              төвлөрдөг.
             </p>
           </div>
 
@@ -285,7 +267,7 @@ export default function Home() {
 
                 {index === 1 && (
                   <button className="absolute left-1/2 top-1/2 w-[78%] max-w-[22rem] -translate-x-1/2 -translate-y-1/2 bg-black px-4 py-3 text-[0.7rem] font-black uppercase tracking-[0.16em] text-white sm:px-6 sm:py-4 sm:text-xs">
-                    See Full Transformation
+                    Бүрэн өөрчлөлтийг үзэх
                   </button>
                 )}
               </div>
@@ -301,17 +283,15 @@ export default function Home() {
         <div className="mx-auto max-w-[1800px]">
           <div className="text-center">
             <p className="text-[0.7rem] font-black uppercase tracking-[0.28em] text-white/78 sm:text-sm">
-              There&apos;s Only One Apa Aesthetic.
+              Dentic Dental Clinic бол онцгой нэг л туршлага.
             </p>
 
             <div className="mt-6 text-[3.6rem] italic tracking-[-0.14em] sm:mt-8 sm:text-7xl">
-              apa
+              Dentic Dental Clinic 
               <span className="ml-1 text-[1.15rem] not-italic sm:text-[1.7rem]">
                 .
               </span>
-              <p className="mt-1 text-[0.62rem] not-italic font-semibold tracking-[0.42em] sm:text-xs">
-                AESTHETIC
-              </p>
+             
             </div>
           </div>
 
@@ -334,8 +314,8 @@ export default function Home() {
   
 
           <p className="mt-12 text-center text-xs leading-6 text-gray-400 sm:mt-16 sm:text-sm">
-            © 2026 Apa Aesthetic. All Rights Reserved. Privacy Policy.
-            Accessibility
+            © 2026 Budmaa's Business . Бүх эрх хуулиар хамгаалагдсан. Нууцлалын
+            бодлого. Хүртээмж.
           </p>
         </div>
       </footer>

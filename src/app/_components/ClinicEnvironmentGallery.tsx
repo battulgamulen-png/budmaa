@@ -115,7 +115,7 @@ export default function ClinicEnvironmentGallery({
             <div className="absolute inset-0 bg-[linear-gradient(to_top,rgba(2,8,23,0.72),transparent_42%)]" />
 
             <div className="absolute left-3 top-3 rounded-full border border-white/12 bg-white/8 px-3 py-1 text-[0.7rem] uppercase tracking-[0.24em] text-white/78 backdrop-blur sm:left-4 sm:top-4">
-              Clinic Scene
+              Эмнэлгийн орчин
             </div>
 
             <div className="absolute bottom-3 left-3 right-3 rounded-[1.4rem] border border-white/10 bg-slate-950/48 p-3 backdrop-blur sm:bottom-4 sm:left-4 sm:right-4 sm:p-4">

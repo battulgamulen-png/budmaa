@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Dentiq Dental Clinic",
-  description: "Шүдний эмнэлгийн үйлчилгээ, 3D танилцуулга, холбоо барих нүүр хуудас.",
+  title: "Apa Aesthetic | Шүдний гоо зүйн эмнэлэг",
+  description:
+    "Шүдний гоо зүйн эмчилгээ, инээмсэглэлийн дизайн, зөвлөгөөний цаг авах нүүр хуудас.",
 };
 
 export default function RootLayout({

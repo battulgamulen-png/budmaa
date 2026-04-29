@@ -27,11 +27,9 @@ export default function Header({ ctaHref, ctaLabel, links }: HeaderProps) {
           onClick={() => setOpen(false)}
         >
           <div className="text-[2.85rem] italic tracking-[-0.14em] sm:text-[3.55rem]">
-            apa<span className="ml-1 text-[1rem] not-italic sm:text-[1.2rem]">.</span>
+            Dentic Dental Clinic<span className="ml-1 text-[1rem] not-italic sm:text-[1.2rem]">.</span>
           </div>
-          <p className="-mt-1 pl-2 text-[0.6rem] font-semibold tracking-[0.42em] sm:text-[0.72rem]">
-            AESTHETIC
-          </p>
+      
         </Link>
 
         <nav className="hidden items-center gap-7 xl:flex 2xl:gap-10">
@@ -58,7 +56,7 @@ export default function Header({ ctaHref, ctaLabel, links }: HeaderProps) {
           onClick={() => setOpen((value) => !value)}
           className="rounded-md p-2 text-[#171717] xl:hidden"
           aria-expanded={open}
-          aria-label={open ? "Close menu" : "Open menu"}
+          aria-label={open ? "Цэс хаах" : "Цэс нээх"}
         >
           {open ? <X size={34} strokeWidth={2.25} /> : <Menu size={34} strokeWidth={2.25} />}
         </button>
